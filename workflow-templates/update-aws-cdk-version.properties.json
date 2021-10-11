@@ -3,11 +3,16 @@
     "description": "Automatically update the AWS CDK version in your project",
     "iconName": "example-icon",
     "categories": [
-       "Automation"
+       "typescript",
+        "javascript",
+        "nodejs"
     ],
     "filePatterns": [
         "package.json$",
         "^Dockerfile",
+        "tsconfig.json",
+        "webpack.config.ts",
+        "webpack.config.js"
         ".*\\.md$"
     ]
 }
