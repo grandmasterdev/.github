@@ -1,7 +1,7 @@
 {
     "name": "Update AWS CDK version",
     "description": "Automatically update the AWS CDK version in your project",
-    "iconName": "example-icon",
+    "iconName": "octicon-smiley",
     "categories": [
        "typescript",
         "javascript",
