@@ -1,9 +1,10 @@
 {
     "name": "Update AWS CDK version",
-    "description": "Octo Organization CI workflow template.",
+    "description": "Automatically update the AWS CDK version in your project",
     "iconName": "example-icon",
     "categories": [
-        "Go"
+        "Utilities",
+        "Dependencies"
     ],
     "filePatterns": [
         "package.json$",
