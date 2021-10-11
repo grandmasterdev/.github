@@ -3,8 +3,7 @@
     "description": "Automatically update the AWS CDK version in your project",
     "iconName": "example-icon",
     "categories": [
-        "Utilities",
-        "Dependencies"
+       "Automation"
     ],
     "filePatterns": [
         "package.json$",
