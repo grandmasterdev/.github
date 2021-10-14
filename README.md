@@ -7,6 +7,6 @@ This repo contains some workflow templates that can be use in the github action
 
 Variations:
 
-1. cron job
-2. on commit (master/main) or pull request
+1. [cron job](./workflow-templates/update-aws-cdk-version-cron-job.yml)
+2. [on commit (master/main) or pull request](./workflow-templates/update-aws-cdk-version-commit.yml)
 
