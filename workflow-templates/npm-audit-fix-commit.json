@@ -1,0 +1,18 @@
+{
+    "name": "npm audit fix",
+    "description": "Run npm audit fix to automatically fix npm on commit or pull request",
+    "iconName": "octicon-smiley",
+    "categories": [
+       "typescript",
+        "javascript",
+        "nodejs"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        "tsconfig.json",
+        "webpack.config.ts",
+        "webpack.config.js",
+        ".*\\.md$"
+    ]
+}
