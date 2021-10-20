@@ -36,7 +36,7 @@ jobs:
       
     - uses: grandmasterdev/github-action-aws-cdk-update
       with:
-        working-dir: ${{env.wd}}
+        working-dir: ${{github.workspace}}
         github-user: 'action-committer'
         github-email: 'action-committer'
         github-token: ${{github.token}}

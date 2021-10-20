@@ -32,7 +32,7 @@ jobs:
         echo "wd=${WD}" >> $GITHUB_ENV
       id: working-dir
       
-    - uses: grandmasterdev/github-action-aws-cdk-update
+    - uses: grandmasterdev/npm-audit-fix@v0.0.1
       with:
         working-dir: ${{env.wd}}
         github-user: 'action-committer'
