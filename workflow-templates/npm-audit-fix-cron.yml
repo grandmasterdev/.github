@@ -21,9 +21,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - uses: grandmasterdev/npm-audit-fix@v0.0.1
+    - uses: grandmasterdev/npm-audit-fix@latest
       with:
-        working-dir: ${{env.wd}}
+        working-dir: ${{github.workspace}}
         github-user: 'action-committer'
         github-email: 'action-committer'
         github-token: ${{github.token}}

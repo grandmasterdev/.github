@@ -22,19 +22,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-        
-    - name: Get working directory list
-      run: |
-        WD=$(pwd)
-        echo "wd=${WD}" >> $GITHUB_ENV
-      id: working-dir
       
-    - uses: grandmasterdev/github-action-aws-cdk-update
+    - uses: grandmasterdev/github-action-aws-cdk-update@latest
       with:
         working-dir: ${{github.workspace}}
         github-user: 'action-committer'
